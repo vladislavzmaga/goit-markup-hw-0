@@ -1,11 +1,15 @@
-@import "./utils/vars";
+@import "./utils/variables";
 @import "./utils/hidden";
+@import "./utils/mixins";
 
 @import "./base/reset";
 @import "./base/common";
 
 @import "./components/container.scss";
 @import "./components/modal";
+@import "./components/logo";
+@import "./components/adress";
+@import "./components/btn";
 
 @import "./layout/header";
 @import "./layout/hero";

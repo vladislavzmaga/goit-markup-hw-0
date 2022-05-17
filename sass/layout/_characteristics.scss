@@ -7,24 +7,21 @@
 .characteristics-list {
   display: flex;
   margin-left: -30px;
-}
+  &__item {
+    flex-basis: calc((100% - 120px) / 4);
+    margin-left: 30px;
+  }
 
-.characteristics-list__item {
-  flex-basis: calc((100% - 120px) / 4);
-  margin-left: 30px;
-}
+  &__title {
+    @include font(null, 1.14, 700);
+    text-transform: uppercase;
+    color: var(--bottom-title-color);
+    margin-bottom: 10px;
+  }
 
-.characteristics-list__title {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--bottom-title-color);
-  margin-bottom: 10px;
-}
-
-.characteristics-list__text {
-  line-height: 1.71;
+  &__text {
+    line-height: 1.71;
+  }
 }
 
 /* characteristics-soc */
